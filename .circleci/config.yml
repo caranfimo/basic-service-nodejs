@@ -10,4 +10,4 @@ jobs:
       - setup_remote_docker
       - run: docker build -t bdb-basic-service-nodejs .
 
-      -run: docker run bdb-basic-service-nodejs npm test
+      - run: docker run bdb-basic-service-nodejs npm test
